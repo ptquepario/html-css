@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    a:visited{
+        color: pink;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+
+    a:active{
+        color: yellow;
+    }
+
+    .especial::before {
+        content: '[link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgray;
+    }
+
+    .especial::after {
+        content: '[link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgray;
+    }
+
+    .especial{
+        background-color: rgb(0, 0, 0);
+    }
+</style>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://instagram.com/babymenezes2/" target="_blank">Repósitorio</a></li>
+        <li><a href="https://instagram.com/artedig1tal" target="
+            " class="especial">Canal</a></li>
+        <li><a href="https://instagram.com/gabriel_.2002" target="_blank" class="">Site</a></li>
+    </ul>
+</body>
+</html>

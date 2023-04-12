@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.itemMenu{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0px;
+    background-color: rgba(0, 162, 255, 0.425);
+}
+header{
+    background: linear-gradient(90deg, rgba(0,215,255,1) 0%, rgba(0,151,199,1) 46%, rgba(0,39,255,1) 100%);
+    padding: 10px;
+    box-shadow: -1px 5px 18px rgba(0, 0, 0, 0.253);
+}
+nav{
+    color: white;
+    text-align: center;
+}
+header > section{
+    color: white;
+    padding-right: 0px;
+    word-spacing: 20px;
+}
+section > ul{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 3px 5px 21px black;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    
+}
+main > p{
+    text-indent: 5px;
+    text-align: justify;
+    padding: 5px;
+    
+}
+main > h1{
+    color: #0097c7;
+    text-align: justify;
+    margin: auto;
+    padding: 15px;
+}
+main > h2{
+    color: white;
+
+    background-image: linear-gradient(to right, #0097c7, transparent); /* cor até a transparência */
+
+    padding: 5px;
+    margin: 15px;
+}
+main > img{
+    display: flex;
+    margin: auto;
+}
+
+main > section{
+    background-color: #0097c7;
+    padding: 30px;
+}
+iframe{
+    display: flex;
+    margin: auto;
+    
+}
+footer > h2{
+    
+    
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: auto;
+}
+footer > section > h2{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+footer > section{
+    color: aqua;
+    padding: 30px;
+    
+}
+div{
+    padding: 7px;
+    margin: 32px 32px 0px 32px;
+    background-color: #0097c7;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+}
+.paragrafo{
+    text-indent: 5px;
+    border-radius: 0px 0px 7px 7px;
+    margin-top: 0px;
+    background-color: #7ce0ff;
+    text-shadow: 7px 7px 15px rgba(0, 0, 0, 0.26);
+}
+footer{
+    background-color: #0097c7;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: auto;
+}
+footer > p{
+    margin: 0px;
+    font-size: 10px;
+}
+
+.barra1:hover{
+    background-color: #0097c7;
+    padding: 7px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+.barra2:hover{
+    background-color: #0097c7;
+    padding: 7px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+.barra3:hover{
+    background-color: #0097c7;
+    padding: 7px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+.barra4:hover{
+    background-color: #0097c7;
+    padding: 7px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
