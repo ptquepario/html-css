@@ -1,2 +1,45 @@
 @charset "UTF-8";
 
+header > h1{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.autor{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -16px; 
+}
+.autor > p:hover{
+    text-decoration: underline;
+}
+body{
+    margin: 0px
+}
+.p1{
+    height: 500px;
+    background-color: black;
+}
+.p2{
+    height: 500px;
+    
+}
+.p3{
+    height: 500px;
+    background-color: black;
+}
+.p4{
+    height: 500px;
+    
+}
+.p5{
+    height: 500px;
+    background-color: black;
+}
+.p6{
+    height: 500px;
+    
+}
